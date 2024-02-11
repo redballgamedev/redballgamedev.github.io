@@ -6,7 +6,7 @@ body {
 }
 
 header, nav, main, footer {
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Стили для шапки */
@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Замените на желаемую высоту */
+    height: 20px; /* Замените на желаемую высоту */
 }
 
 /* Стили для навигации */
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 .buttons a {
-    margin: 10px 0; /* Внешний отступ между кнопками */
+    margin: 5px 0; /* Внешний отступ между кнопками */
     text-decoration: none;
 }
 
