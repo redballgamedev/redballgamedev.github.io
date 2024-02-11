@@ -42,11 +42,12 @@ nav ul li a {
 .buttons {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Элементы в столбец */
+    align-items: center; /* Выравнивание по центру */
 }
 
 .buttons a {
-    margin: 0 10px;
+    margin: 10px 0; /* Внешний отступ между кнопками */
     text-decoration: none;
 }
 
