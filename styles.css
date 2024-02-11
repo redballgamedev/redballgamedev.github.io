@@ -41,9 +41,13 @@ nav ul li a {
 /* Стили для кнопок */
 .buttons {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Элементы в столбец */
+    align-items: center; /* Выравнивание по центру */
 }
 
 .buttons a {
+    margin: 10px 0; /* Внешний отступ между кнопками */
     text-decoration: none;
 }
 
@@ -54,7 +58,6 @@ nav ul li a {
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #eee;
-    margin-bottom: 10px; /* Отступ между кнопками */
 }
 
 .button img {
