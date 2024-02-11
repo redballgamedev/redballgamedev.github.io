@@ -52,15 +52,17 @@ nav ul li a {
 
 .button {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Элементы в столбец */
+    align-items: center; /* Выравнивание по центру */
     padding: 10px 20px;
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #eee;
+    width: 300px; /* Ширина кнопки */
 }
 
 .button img {
-    width: 100px; /* Задаем ширину изображения */
+    width: 100px; /* Ширина изображения */
     height: auto; /* Автоматически вычисляем высоту для сохранения пропорций */
-    margin-right: 10px; /* Отступ между изображением и текстом */
+    margin-bottom: 10px; /* Отступ снизу от изображения */
 }
