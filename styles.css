@@ -58,8 +58,7 @@ nav ul li a {
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #eee;
-    width: 80%; /* Ширина кнопки равна 80% ширины экрана */
-    max-width: 400px; /* Максимальная ширина кнопки, чтобы не растягивалась слишком сильно */
+    max-width: 300px; /* Максимальная ширина кнопки */
 }
 
 .button img {
