@@ -40,7 +40,7 @@ nav ul li a {
 
 /* Стили для кнопок */
 .buttons {
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column; /* Элементы в столбец */
     align-items: center; /* Выравнивание по центру */
