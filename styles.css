@@ -6,7 +6,7 @@ body {
 }
 
 header, nav, main, footer {
-    padding: 80px;
+    padding: 20px;
 }
 
 /* Стили для шапки */
@@ -40,7 +40,7 @@ nav ul li a {
 
 /* Стили для кнопок */
 .buttons {
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column; /* Элементы в столбец */
     align-items: center; /* Выравнивание по центру */
@@ -61,7 +61,6 @@ nav ul li a {
     width: 80%; /* Ширина кнопки равна 80% ширины экрана */
     max-width: 400px; /* Максимальная ширина кнопки, чтобы не растягивалась слишком сильно */
 }
-
 
 .button img {
     width: 100px; /* Ширина изображения */
