@@ -1,4 +1,4 @@
- /* Общие стили */
+/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,13 +47,20 @@ nav ul li a {
 
 .buttons a {
     margin: 0 10px;
-    display: block; /* Добавляем этот стиль, чтобы применить размеры к изображениям */
-    width: 100px; /* Желаемая ширина кнопки */
-    height: 100px; /* Желаемая высота кнопки */
+    text-decoration: none;
 }
 
-.buttons img {
-    width: 100%; /* Заполнить всю доступную ширину внутри контейнера */
-    height: 100%; /* Заполнить всю доступную высоту внутри контейнера */
-    object-fit: cover; /* Подогнать изображение к размерам контейнера без искажения */
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.button img {
+    width: 100px; /* Задаем ширину изображения */
+    height: auto; /* Автоматически вычисляем высоту для сохранения пропорций */
+    margin-right: 10px; /* Отступ между изображением и текстом */
 }
