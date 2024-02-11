@@ -41,29 +41,24 @@ nav ul li a {
 /* Стили для кнопок */
 .buttons {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column; /* Элементы в столбец */
-    align-items: center; /* Выравнивание по центру */
 }
 
 .buttons a {
-    margin: 10px 0; /* Внешний отступ между кнопками */
     text-decoration: none;
 }
 
 .button {
     display: flex;
-    flex-direction: column; /* Элементы в столбец */
     align-items: center; /* Выравнивание по центру */
     padding: 10px 20px;
     border: 2px solid #333;
     border-radius: 5px;
     background-color: #eee;
-    width: 300px; /* Ширина кнопки */
+    margin-bottom: 10px; /* Отступ между кнопками */
 }
 
 .button img {
     width: 100px; /* Ширина изображения */
     height: auto; /* Автоматически вычисляем высоту для сохранения пропорций */
-    margin-bottom: 10px; /* Отступ снизу от изображения */
+    margin-right: 10px; /* Отступ справа от изображения */
 }
