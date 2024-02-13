@@ -52,7 +52,14 @@ nav ul li a {
 }
 
 .button {
-    position: relative; /* делаем позицию относительной, чтобы ссылки были позиционированы внутри .button */
+    display: flex;
+    align-items: flex-start; /* Выравнивание элементов по верхнему краю */
+    padding: 5px 5px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    background-color: #333;
+    max-width: 700px; /* Максимальная ширина кнопки */
+    color: white; /* Устанавливаем белый цвет текста */
 }
 
 .button img {
@@ -62,24 +69,9 @@ nav ul li a {
 }
 
 .links {
-    position: absolute; /* делаем позицию абсолютной, чтобы ссылки были позиционированы относительно .button */
-    bottom: 0; /* позиционируем ссылки внизу .button */
-    left: 0; /* позиционируем ссылки слева .button */
-    width: 100%; /* устанавливаем ширину ссылок равной ширине .button */
-    background-color: rgba(17, 17, 17, 0.8); /* устанавливаем цвет фона ссылок, например, черный с небольшой прозрачностью */
-    padding: 5px; /* добавляем небольшие отступы вокруг ссылок */
-    display: flex; /* устанавливаем отображение ссылок в виде flex, чтобы они распределялись горизонтально */
-    justify-content: space-around; /* выравниваем ссылки по горизонтали */
-    border-bottom-left-radius: 5px; /* скругляем левый нижний угол */
-    border-bottom-right-radius: 5px; /* скругляем правый нижний угол */
+    display: flex;
 }
 
 .links a {
-    color: white; /* устанавливаем цвет текста ссылок */
-    text-decoration: none; /* удаляем подчеркивание ссылок */
-    transition: color 0.3s ease; /* добавляем плавный переход цвета текста */
-}
-
-.links a:hover {
-    color: gray; /* изменяем цвет текста при наведении */
+    margin-right: 10px; /* добавляем небольшой отступ между ссылками */
 }
